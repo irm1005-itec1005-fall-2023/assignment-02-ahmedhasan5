@@ -1,19 +1,84 @@
 /*
  * Assignment 02
  * CSS FILE
+ #cfcdff;
  */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
+  background-color:#00246B;
   justify-content: center;
   align-items: center;
 }
 
 h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color:aliceblue
 }
+
+.product-container {
+  display: flex;
+}
+
+p {
+  margin-bottom: 4rem;
+  
+}
+
+.bold-text {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.product {
+  padding: 3.5rem;
+  margin: 2rem;
+  border-radius: 5rem;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.image-fix {
+  width: 10rem;
+  margin-bottom: 2rem;
+  height: 10rem;
+  border-radius:10rem
+}
+
+
+
+.product:nth-child(1) {
+background-color: #CADCFC;
+
+}
+
+.product:nth-child(2) {
+background-color: #8AB6F9;
+
+}
+
+.product:nth-child(3) {
+background-color:#cfcdff;
+
+}
+
+.read-more {
+  margin-top: 5rem;
+}
+
+.btn {
+  background-color:cornflowerblue;
+  border: 1px solid aliceblue;
+  color: aliceblue;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-style: oblique;
+  text-transform:uppercase;
+  text-decoration: none;
+}
+
