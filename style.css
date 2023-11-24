@@ -11,12 +11,6 @@ body {
   align-items: center;
 }
 
-h1 {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  color: aliceblue;
-}
 
 .logo-brand{
   width: 100px;
@@ -24,15 +18,22 @@ h1 {
 
 }
 
+.Logo-name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+}
+
 .product-container {
   display: flex;
   align-items: center;
-  color: aliceblue;
+  color: #000000;
 }
 
 p {
   margin-bottom: 4rem;
-  
+
 }
 
 
@@ -41,6 +42,7 @@ p {
   margin: 2rem;
   border-radius: 5rem;
   text-align: center;
+
 }
 
 h2 {
@@ -61,19 +63,18 @@ h2 {
 
 
 .product:nth-child(1) {
-background-color: #CADCFC;
+  background-color: #CADCFC;
 
 }
 
 .product:nth-child(2) {
-background-color: #8AB6F9;
-
-}
-
+  background-color: #8AB6F9;
+  
+  }
+  
 .product:nth-child(3) {
-background-color:#cfcdff;
-
-}
+  background-color:#cfcdff;
+  }
 
 .read-more {
   margin-top: 5rem;
@@ -81,7 +82,7 @@ background-color:#cfcdff;
 
 .btn {
   background-color:cornflowerblue;
-  border: 1.5px solid aliceblue;
+  border-radius: 2.5px;
   color: aliceblue;
   padding: 1rem;
   border-radius: 2rem;
@@ -93,6 +94,7 @@ background-color:#cfcdff;
 
 .action {
   text-transform: uppercase;
+  color: aliceblue;
 }
 
 footer {
